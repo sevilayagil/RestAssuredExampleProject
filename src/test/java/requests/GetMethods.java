@@ -1,19 +1,14 @@
 package requests;
-
 import io.restassured.RestAssured;
-import io.restassured.config.SSLConfig;
-
-import io.restassured.http.ContentType;
 import io.restassured.path.json.JsonPath;
 import io.restassured.response.Response;
 import io.restassured.response.ResponseBody;
 import io.restassured.specification.RequestSpecification;
 import junit.framework.Assert;
 import org.junit.Test;
-
 import static io.restassured.RestAssured.given;
 
-public class RequestExam {
+public class GetMethods {
     @Test
     public void testscenarios() {
         //1.
